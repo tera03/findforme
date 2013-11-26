@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>places-fav</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, target-densityDpi=device-dpi" />
+    <link type="text/css" rel="stylesheet" href="style/screen.css" />
+
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.29727.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollpane.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.9.2.custom.min.js"></script>
+    <script type="text/javascript" src="js/jquery.multiselect.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header">
+            <div class="top-banner">
+                <img src="image/top-header.jpg" alt="" />
+            </div>
+            <div class="bottom-header">
+                <div class="lang">
+                    <a href="#" class="active">Ru</a>
+                    <a href="#">En</a>
+                </div>
+                <a href="#" class="logo">find for me</a>
+                <div class="form-search">
+                    <a href="#">Минск</a>
+                    <form>
+                        <fieldset>
+                            <div class="item-form">
+                                <input type="search" placeholder="Улица, заведение, остановка..." />
+                                <input type="submit" value="Найти" />
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="login-helper">
+                    <p>Войти с помощью:</p>
+                    <a href="#" class="vk">vk.com</a>
+                    <a href="#" class="odk">odnoklassniki.ru</a>
+                    <a href="#" class="facebook">facebook.com</a>
+                    <a href="#" class="twitter">twitter.com</a>
+                </div>
+            </div>
+        </header>
+        <div class="inner-main">
+            <aside class="left-menu">
+                <ul>
+                    <li><a href="#">Экстренные службы</a></li>
+                    <li><a href="#">Посольства</a></li>
+                    <li><a href="#">Мед учреджения</a></li>
+                    <li><a href="#">Транспорт</a></li>
+                    <li><a href="#">Питание</a></li>
+                    <li><a href="#">Достопримечательности</a></li>
+                    <li><a href="#">Досуг</a>
+                        <ul style="display: block;">
+                            <li class="active"><a href="#">Театры</a> <span class="st-a">status-active</span></li>
+                            <li><a href="#">Музеи</a> <a href="#" class="st-g">status-check</a></li>
+                            <li><a href="#">Кинотеатры</a><a href="#" class="st-g active">status-checked</a></li>
+                            <li><a href="#">Цирки</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Торговые объекты</a></li>
+                    <li><a href="#">Услуги связи</a></li>
+                    <li><a href="#">Финансы</a></li>
+                    <li><a href="#">Развлечения</a></li>
+                    <li><a href="#">Автоуслуги</a></li>
+                    <li><a href="#">Отели</a></li>
+                    <li><a href="#">Аптеки</a></li>
+                    <li><a href="#">Спорт</a></li>
+                    <li><a href="#">Туалеты</a></li>
+                </ul>
+            </aside>
+            <section class="main">
+                <header>
+                    <h1>Избранное</h1>
+                </header>
+                <aside class="right-block">
+                   <h3>Категории</h3>
+                    <ul class="list-category">
+                        <li>
+                            <a href="#">Экстренные службы</a>
+                        </li>
+                        <li>
+                            <a href="#">Достопримечательности</a>
+                        </li>
+                        <li>
+                            <a href="#">Досуг</a>
+                        </li>
+                    </ul>
+                </aside>
+                <div class="catalog two-col">
+                    <h3>Заведения</h3>
+                    <div class="catalog-item brown">
+                        <a href="#" class="icon-h active"></a>
+                        <span class="c-i-icon">
+                            <img src="image/Cat-i-1.jpg" alt="" />
+                        </span>
+                        <div class="right-part">
+                            <h3><a href="#">Аврора</a></h3>
+                            <span class="type">кинотеатр</span>
+                            <div class="product-rate-wrapper">
+                                <div class="product-rate">
+                                    <div></div>
+                                </div>
+                                <div class="sale">%</div>
+                            </div>
+                        </div>
+                        <p class="address">ул. Пушкинская, 2</p>
+                    </div>
+                    <div class="catalog-item">
+                        <span class="status-close">close</span>
+                        <a href="#" class="icon-h active"></a>
+                        <span class="c-i-icon">
+                            <img src="image/Cat-i-1.jpg" alt="" />
+                        </span>
+                        <div class="right-part">
+                            <h3><a href="#">Территория твоего отдыха</a></h3>
+                            <span class="type">кафе</span>
+                            <div class="product-rate-wrapper">
+                                <div class="product-rate">
+                                    <div style="width: 61%;"></div>
+                                </div>
+                                <div class="sale">%</div>
+                            </div>
+                        </div>
+                        <p class="address">ул. Авакяна, 52</p>
+                    </div>
+                    <div class="catalog-item">
+                        <span class="status-close">close</span>
+                        <a href="#" class="icon-h active"></a>
+                        <span class="c-i-icon">
+                            <img src="image/Cat-i-1.jpg" alt="" />
+                        </span>
+                        <div class="right-part">
+                            <h3><a href="#">Аврора</a></h3>
+                            <span class="type">кинотеатр</span>
+                            <div class="product-rate-wrapper">
+                                <div class="product-rate">
+                                    <div style="width: 100%;"></div>
+                                </div>
+                                <div class="sale">%</div>
+                            </div>
+                        </div>
+                        <p class="address">ул. Пушкинская, 2</p>
+                    </div>
+                    <div class="catalog-item brown">
+                        <a href="#" class="icon-h active"></a>
+                        <span class="c-i-icon">
+                            <img src="image/Cat-i-1.jpg" alt="" />
+                        </span>
+                        <div class="right-part">
+                            <h3><a href="#">Аврора</a></h3>
+                            <span class="type">кинотеатр</span>
+                            <div class="product-rate-wrapper">
+                                <div class="product-rate">
+                                    <div style="width: 100%;"></div>
+                                </div>
+                                <div class="action">Акция!</div>
+                            </div>
+                        </div>
+                        <p class="address">ул. Пушкинская, 2</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer id="footer">
+            <div class="left">
+                <a href="#" class="footer-logo">find for me</a>
+                <p class="cp">&copy;2013. Все права защищены.</p>
+            </div>
+            <div class="footer-menu">
+                <a href="#">Реклама на сайте</a>
+                <a href="#">О нас</a>
+                <a href="#">Обратная связь</a>
+                <a href="#">Мобильное приложение</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

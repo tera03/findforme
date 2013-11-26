@@ -1,0 +1,47 @@
+@import "compass/stylesheets/compass";
+@import "compass/stylesheets/lemonade";
+
+$icons: sprite-map("icons/*.png", $layout: smart);
+
+@mixin clear {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+  @include clear;
+}
+
+@mixin status-menu {
+  width: 12px;
+  @include hide-text;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px 6px 4px;
+  margin-left: 3px;
+  position: relative;
+  &:before {
+    content: "";
+    display: block;
+    background: $icons no-repeat;
+    background-position: sprite-position($icons, heart-gr-tr);
+    @include sprite-dimensions($icons, heart-gr-tr);
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    overflow: hidden;
+  }
+}
+
+$border: 1px solid #eff0f1;
+$grey-color: #5e6971;
+$logo: "logo.jpg";
+$blue-color: #0f5fff;
+$bg-grey: #f7f7f7;
+$social: vk odk facebook twitter;
